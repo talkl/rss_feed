@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title </title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <script src="./js/script.js" type="text/javascript"></script>
+</head>
+<body>
+<!--Your content-->
+<h1>Tal's RSS FEED</h1>
+<select id="list-of-rss">
+    <option value="jpost">The Jerusalem Post</option>
+    <option value="wallstreetj">The Wall Street Journal</option>
+    <option value="dmail">Daily Mail</option>
+    <option value="fifa">Fifa</option>
+</select>
+<input id="refresh-button" class="button" type="button" value="Refresh Feed"/>
+<span id="refresh">Last refresh Time:</span>
+<div id="feed-container">
+    <table id="feed-table">
+        <thead>
+            <tr>
+                <th>
+                    Headlines
+                </th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+</body>
+</html>
