@@ -1,0 +1,2 @@
+bottle==0.12.16
+feedparser==5.2.1
