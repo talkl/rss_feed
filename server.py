@@ -1,6 +1,5 @@
 from bottle import route, run, static_file, template, request, response, HTTPResponse
 import json
-import sys
 import feedparser
 import datetime
 
